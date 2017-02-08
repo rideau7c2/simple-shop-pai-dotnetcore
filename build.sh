@@ -34,7 +34,7 @@ check_result_msg() {
   fi
 }
 
-VERSIONS="${VERSIONS:-1.0 1.1}"
+VERSIONS="${VERSIONS:-1.1}"
 
 for v in ${VERSIONS}; do
   v_no_dot="$( version_no_dot ${v} )"
